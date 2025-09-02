@@ -188,7 +188,7 @@ export default function Home() {
           onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && loadMore()}
           aria-busy={loading}
         >
-          {loading ? "Loading..." : "Load more"}
+          {loading ? "Loading..." : "View more"}
         </span>
       </div>
     </div>
